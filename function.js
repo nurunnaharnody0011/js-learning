@@ -46,6 +46,12 @@ function introduction(){
             name: "sagor",
             age: 24
         }
-        person.family.mother.age +=1;
+        //person.family.mother.age +=1;
     
-    console.log(person.family.mother.age);
+    //console.log(person.family.mother.age);
+    for(const key in person.family){
+        const value = person.family[key];
+        //console.log(value);
+    }
+
+
